@@ -1,0 +1,281 @@
+body{
+    overflow-x: hidden;
+}
+#firstrow{
+    height: 92px;
+    width: 1350px;
+    border: 1px solid black;
+}
+#firstrow-col1{
+    border: 1px solid black;
+    height: 650px;
+}
+#secondrow{
+    height: 700px;
+    width: 1350px;
+    border: 1px solid black;
+}
+#secondcol-1{
+    border: 1px solid black;
+    height: 700px;
+}
+.search form{
+    width: 21%;
+    position: absolute;
+    right: 820px;
+    
+}
+.profile{
+    position: absolute;
+    right: 855px;
+    top: 200px;
+    height: 300px;
+    width: 250px;
+    border: 1px solid rgba(219, 218, 218, 0.74);
+}
+.profile img{
+    position: absolute;
+    right: 75px;
+    top: 22px;
+}
+#name{
+    position: absolute;
+    top:125px;
+    left: 48px;
+}
+#role{
+    position: absolute;
+    top:155px;
+    left: 10px;
+    font-size: 10px;
+}
+#level{
+    position: absolute;
+    top:175px;
+    left: 78px;
+    font-size: 10px;
+}
+#location{
+    position: absolute;
+    top:225px;
+    left: 88px;
+}
+#mail{
+    position: absolute;
+    top:255px;
+    left: 40px;
+    font-size: 12px;
+}
+.profile-1{
+    position: absolute;
+    right: 555px;
+    top: 200px;
+    height: 300px;
+    width: 250px;
+    border: 1px solid rgba(219, 218, 218, 0.74);
+}
+.profile-1 img{
+    position: absolute;
+    right: 75px;
+    top: 22px;
+}
+#name1{
+    position: absolute;
+    top:125px;
+    left: 48px;
+}
+#role1{
+    position: absolute;
+    top:155px;
+    left: 10px;
+    font-size: 10px;
+}
+#level1{
+    position: absolute;
+    top:175px;
+    left: 78px;
+    font-size: 10px;
+}
+#location1{
+    position: absolute;
+    top:225px;
+    left: 88px;
+}
+#mail1{
+    position: absolute;
+    top:255px;
+    left: 40px;
+    font-size: 12px;
+}
+.profile-2{
+    position: absolute;
+    right: 255px;
+    top: 200px;
+    height: 300px;
+    width: 250px;
+    border: 1px solid rgba(219, 218, 218, 0.74);
+}
+.profile-2 img{
+    position: absolute;
+    right: 75px;
+    top: 22px;
+}
+#name2{
+    position: absolute;
+    top:125px;
+    left: 48px;
+}
+#role2{
+    position: absolute;
+    top:155px;
+    left: 10px;
+    font-size: 10px;
+}
+#level2{
+    position: absolute;
+    top:175px;
+    left: 78px;
+    font-size: 10px;
+}
+#location2{
+    position: absolute;
+    top:225px;
+    left: 88px;
+}
+#mail2{
+    position: absolute;
+    top:255px;
+    left: 40px;
+    font-size: 12px;
+}
+.profile-3{
+    position: absolute;
+    right: 855px;
+    top: 513px;
+    height: 300px;
+    width: 250px;
+    border: 1px solid rgba(219, 218, 218, 0.74);
+}
+.profile-3 img{
+    position: absolute;
+    right: 75px;
+    top: 22px;
+}
+#name3{
+    position: absolute;
+    top:125px;
+    left: 48px;
+}
+#role3{
+    position: absolute;
+    top:155px;
+    left: 10px;
+    font-size: 10px;
+}
+#level3{
+    position: absolute;
+    top:180px;
+    left: 78px;
+    font-size: 10px;
+}
+#location3{
+    position: absolute;
+    top:225px;
+    left: 88px;
+}
+#mail3{
+    position: absolute;
+    top:255px;
+    left: 40px;
+    font-size: 12px;
+}
+.profile-4{
+    position: absolute;
+    right: 555px;
+    top: 513px;
+    height: 300px;
+    width: 250px;
+    border: 1px solid rgba(219, 218, 218, 0.74);
+}
+.profile-4 img{
+    position: absolute;
+    right: 75px;
+    top: 22px;
+}
+#name4{
+    position: absolute;
+    top:125px;
+    left: 48px;
+}
+#role4{
+    position: absolute;
+    top:155px;
+    left: 10px;
+    font-size: 10px;
+}
+#level4{
+    position: absolute;
+    top:180px;
+    left: 78px;
+    font-size: 10px;
+}
+#location4{
+    position: absolute;
+    top:225px;
+    left: 88px;
+}
+#mail4{
+    position: absolute;
+    top:255px;
+    left: 40px;
+    font-size: 12px;
+}
+.profile-5{
+    position: absolute;
+    right: 255px;
+    top: 513px;
+    height: 300px;
+    width: 250px;
+    border: 1px solid rgba(219, 218, 218, 0.74);
+}
+.profile-5 img{
+    position: absolute;
+    right: 75px;
+    top: 22px;
+}
+#name5{
+    position: absolute;
+    top:125px;
+    left: 48px;
+}
+#role5{
+    position: absolute;
+    top:155px;
+    left: 10px;
+    font-size: 10px;
+}
+#level5{
+    position: absolute;
+    top:180px;
+    left: 78px;
+    font-size: 10px;
+}
+#location5{
+    position: absolute;
+    top:225px;
+    left: 88px;
+}
+#mail5{
+    position: absolute;
+    top:255px;
+    left: 40px;
+    font-size: 12px;
+}
+#page li{
+    display: inline;
+    position: relative;
+    top: 700px;
+    left: 510px;
+    padding: 16px;
+}
+
