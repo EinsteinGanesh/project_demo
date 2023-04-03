@@ -1,0 +1,658 @@
+body{
+    overflow-x: hidden;
+}
+.container1{
+    display: grid;
+    grid-template-areas: 'nav txt txt'
+    'nav sec aside'
+    'nav sec aside'
+    'nav sec aside'
+    ;
+    grid-template-columns: 15% 65% auto;
+  }
+  .nav
+{
+  grid-area: nav;
+  border: 1px solid black;
+  /* background-color: lightblue; */
+}
+.text
+{
+  grid-area: txt;
+  height: 90px;
+  /* border: 1px solid black; */
+}
+.sec
+{
+  grid-area: sec;
+  height: 550px;
+  /* border: 1px solid black; */
+}
+.aside
+{
+  grid-area: aside;
+  height: 550px;
+  /* border: 1px solid black; */
+}
+.heading{
+    height: 100px;
+    width: 188px;
+    /* border: 1px solid black; */
+    background-color: lightblue;
+}
+#companyname{
+       position: relative;
+       top: 20px;
+       left: 30px;
+       font-size: 16px;
+       font-weight: bold;
+}
+#companyname1{
+    position: relative;
+    top: 35px;
+    right: 22px;
+    font-size: 12px;
+}
+.heading img{
+    position: relative;
+    top: 28px;
+    left: 20px;
+    width: 40px;
+        height: 40px;
+        background-image: url('icon.jpeg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        /* border: 1px solid black; */
+        
+        
+}
+.list-of-topic{
+    height: 600px;
+    width: 185px;
+    /* border: 1px solid black; */
+    background-color: lightblue
+}
+.list-of-topic ul li{
+    padding: 15px;
+    font-size: 11px;
+    list-style-type: none;
+}
+.logo1 img{
+    position: relative;
+    right: 27px;
+}
+.logoname{
+    position: absolute;
+    left: 53px;
+}
+
+.search form{
+    width: 23%;
+position: absolute;
+    right: 719px;
+    top: 105px;
+    
+}
+
+
+.profile{
+    position: absolute;
+    right: 758px;
+    top: 150px;
+    height: 219px;
+    width: 230px;
+    border: 1px solid rgba(219, 218, 218, 0.74);
+    border-radius: 7px;
+}
+.profile img{
+    position: absolute;
+    right: 75px;
+    top: 12px;
+}
+#name{
+    position: absolute;
+    top:91px;
+    left: 49px;
+    font-size: 15px;
+}
+#role{
+    position: absolute;
+    top:115px;
+    left: 10px;
+    font-size: 9px;
+}
+#level{
+    position: absolute;
+    top:133px;
+    left: 78px;
+    font-size: 10px;
+}
+.progress{
+    height: 3px;
+    border: 1px solid green;
+    background-color: rgb(228, 224, 224);
+    width: 60%;
+    margin: auto;
+    border-radius: 8px;
+    position: relative;
+    top: 155px;
+}
+.progress_bar{
+    height: 3px;
+    width: 60%;
+    background-color: green;
+    border-radius: 8px;
+}
+#location{
+    position: absolute;
+    top:166px;
+    left: 83px;
+    font-size: 12px;
+}
+#mail{
+    position: absolute;
+    top:190px;
+    left: 40px;
+    font-size: 10px;
+}
+.profile-1{
+    position: absolute;
+    right: 508px;
+    top: 150px;
+    height: 219px;
+    width: 230px;
+    border: 1px solid rgba(219, 218, 218, 0.74);
+    border-radius: 7px;
+}
+.profile-1 img{
+    position: absolute;
+    right: 75px;
+    top: 12px;
+}
+#name1{
+    position: absolute;
+    top:91px;
+    left: 49px;
+    font-size: 15px;
+}
+#role1{
+    position: absolute;
+    top:115px;
+    left: 10px;
+    font-size: 9px;
+}
+#level1{
+    position: absolute;
+    top:133px;
+    left: 78px;
+    font-size: 10px;
+}
+.progress1{
+    height: 3px;
+    border: 1px solid green;
+    background-color: rgb(228, 224, 224);
+    width: 60%;
+    margin: auto;
+    border-radius: 8px;
+    position: relative;
+    top: 155px;
+}
+.progress_bar1{
+    height: 3px;
+    width: 60%;
+    background-color: green;
+    border-radius: 8px;
+}
+#location1{
+    position: absolute;
+    top:166px;
+    left: 83px;
+    font-size: 12px;
+}
+#mail1{
+    position: absolute;
+    top:190px;
+    left: 40px;
+    font-size: 10px;
+}
+.profile-2{
+    position: absolute;
+    right: 258px;
+    top: 150px;
+    height: 219px;
+    width: 230px;
+    border: 1px solid rgba(219, 218, 218, 0.74);
+    border-radius: 7px;
+}
+.profile-2 img{
+    position: absolute;
+    right: 75px;
+    top: 12px;
+}
+#name2{
+    position: absolute;
+    top:91px;
+    left: 49px;
+    font-size: 15px;
+}
+#role2{
+    position: absolute;
+    top:115px;
+    left: 10px;
+    font-size: 9px;
+}
+#level2{
+    position: absolute;
+    top:133px;
+    left: 78px;
+    font-size: 10px;
+}
+.progress2{
+    height: 3px;
+    border: 1px solid green;
+    background-color: rgb(228, 224, 224);
+    width: 60%;
+    margin: auto;
+    border-radius: 8px;
+    position: relative;
+    top: 155px;
+}
+.progress_bar2{
+    height: 3px;
+    width: 60%;
+    background-color: green;
+    border-radius: 8px;
+}
+#location2{
+    position: absolute;
+    top:166px;
+    left: 83px;
+    font-size: 12px;
+}
+#mail2{
+    position: absolute;
+    top:190px;
+    left: 40px;
+    font-size: 10px;
+}
+.profile-3{
+    position: absolute;
+    right: 758px;
+    top: 392px;
+    height: 219px;
+    width: 230px;
+    border: 1px solid rgba(219, 218, 218, 0.74);
+    border-radius: 7px;
+}
+.profile-3 img{
+    position: absolute;
+    right: 75px;
+    top: 12px;
+}
+#name3{
+    position: absolute;
+    top:91px;
+    left: 49px;
+    font-size: 15px;
+}
+#role3{
+    position: absolute;
+    top:115px;
+    left: 10px;
+    font-size: 9px;
+}
+#level3{
+    position: absolute;
+    top:133px;
+    left: 78px;
+    font-size: 10px;
+}
+.progress3{
+    height: 3px;
+    border: 1px solid green;
+    background-color: rgb(228, 224, 224);
+    width: 60%;
+    margin: auto;
+    border-radius: 8px;
+    position: relative;
+    top: 155px;
+}
+.progress_bar3{
+    height: 3px;
+    width: 60%;
+    background-color: green;
+    border-radius: 8px;
+}
+#location3{
+    position: absolute;
+    top:166px;
+    left: 83px;
+    font-size: 12px;
+}
+#mail3{
+    position: absolute;
+    top:190px;
+    left: 40px;
+    font-size: 10px;
+}
+.profile-4{
+    position: absolute;
+    right: 508px;
+    top: 392px;
+    height: 219px;
+    width: 230px;
+    border: 1px solid rgba(219, 218, 218, 0.74);
+    border-radius: 7px;
+}
+.profile-4 img{
+    position: absolute;
+    right: 75px;
+    top: 12px;
+}
+#name4{
+    position: absolute;
+    top:91px;
+    left: 49px;
+    font-size: 15px;
+}
+#role4{
+    position: absolute;
+    top:115px;
+    left: 10px;
+    font-size: 9px;
+}
+#level4{
+    position: absolute;
+    top:133px;
+    left: 78px;
+    font-size: 10px;
+}
+.progress4{
+    height: 3px;
+    border: 1px solid green;
+    background-color: rgb(228, 224, 224);
+    width: 60%;
+    margin: auto;
+    border-radius: 8px;
+    position: relative;
+    top: 155px;
+}
+.progress_bar4{
+    height: 3px;
+    width: 60%;
+    background-color: green;
+    border-radius: 8px;
+}
+
+#location4{
+    position: absolute;
+    top:166px;
+    left: 83px;
+    font-size: 12px;
+}
+#mail4{
+    position: absolute;
+    top:190px;
+    left: 40px;
+    font-size: 10px;
+}
+.profile-5{
+    position: absolute;
+    right: 258px;
+    top: 392px;
+    height: 219px;
+    width: 230px;
+    border: 1px solid rgba(219, 218, 218, 0.74);
+    border-radius: 7px;
+}
+.profile-5 img{
+    position: absolute;
+    right: 75px;
+    top: 12px;
+}
+#name5{
+    position: absolute;
+    top:91px;
+    left: 49px;
+    font-size: 15px;
+}
+#role5{
+    position: absolute;
+    top:115px;
+    left: 10px;
+    font-size: 9px;
+}
+#level5{
+    position: absolute;
+    top:133px;
+    left: 78px;
+    font-size: 10px;
+}
+.progress5{
+    height: 3px;
+    border: 1px solid green;
+    background-color: rgb(228, 224, 224);
+    width: 60%;
+    margin: auto;
+    border-radius: 8px;
+    position: relative;
+    top: 155px;
+}
+.progress_bar5{
+    height: 3px;
+    width: 60%;
+    background-color: green;
+    border-radius: 8px;
+}
+#location5{
+    position: absolute;
+    top:166px;
+    left: 83px;
+    font-size: 12px;
+}
+#mail5{
+    position: absolute;
+    top:190px;
+    left: 40px;
+    font-size: 10px;
+}
+#page li{
+    display: inline;
+    position: relative;
+    top: 550px;
+    left: 240px;
+    padding: 16px;
+    font-size: 12px;
+}
+
+.reporting-manager{
+    height: 90px;
+    width: 240px;
+    border: 1px solid black;
+    border: 1px solid rgba(219, 218, 218, 0.74);
+    margin-top: 44px;
+}
+.reporting-manager .manager{
+    margin: 16px;
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+.picture{
+    position: relative;
+    bottom: 14px;
+    left: 12px;
+    /* display: inline-block; */
+}
+.picture h6{
+    position: absolute;
+    top: 13px;
+    right: 98px;
+    font-size: 12px;
+}
+.best-performer{
+    height: 90px;
+    width: 240px;
+    border: 1px solid black;
+    margin-top: 20px;
+    border: 1px solid rgba(219, 218, 218, 0.74);
+}
+.performer h5{
+    position: absolute;
+    top: 358px;
+    left: 1225px;
+    color: rgb(22, 179, 231);
+    
+}
+.best-performer .performer{
+    margin: 19px;
+    display: inline-block;
+    margin-top: 8px;
+}
+.picture1{
+    position: relative;
+    bottom: 37px;
+    left: 12px;
+    /* display: inline-block; */
+}
+.picture1 h6{
+    position: absolute;
+    top: 2px;
+    right: 102px;
+    font-size: 12px;
+}
+.picture1 h5{
+    position: absolute;
+    top: 19px;
+    right: 27px;
+    font-size: 12px;
+}
+.picture1 h4{
+    position: absolute;
+    top: 36px;
+    right: 139px;
+}
+.performers{
+    height: 75px;
+    width: 240px;
+    border: 1px solid black;
+    border: 1px solid rgba(219, 218, 218, 0.74);
+}
+.performers .picture1{
+    position: relative;
+    bottom: -15px;
+    left: 12px;
+    /* display: inline-block; */
+}
+.performers .picture1 h6{
+    position: absolute;
+    top: 2px;
+    right: 102px;
+    font-size: 12px;
+}
+.performers .picture1 h5{
+    position: absolute;
+    top: 19px;
+    right: 27px;
+    font-size: 12px;
+}
+.performers .picture1 h4{
+    position: absolute;
+    top: 36px;
+    right: 139px;
+}
+
+
+
+
+
+.heading-bar{
+    width: 100%;
+    height: 90px;
+    float: left;
+    border: 1px solid rgb(170, 168, 168);
+    background-color: rgb(239, 249, 246);
+}
+#name-half{
+   
+   
+    height: 90px;
+    float: left;
+    
+   
+    
+}
+#name-medium{
+    font-size: larger;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-left: 25px;
+    display: block;
+}
+#name-small{
+    font-size: x-small;
+    display: block;
+    padding-left: 25px;
+    }
+
+    #name-second-half{
+   
+        float: left;
+        padding-left: 117px;
+        position: relative;
+        width: 50%;
+        height: 90px;
+    }
+    #search-bar{
+        float: left;
+        margin-right: 20px;
+       
+        
+    }
+    #bell-icon{
+        width: 30px;
+        height: 30px;
+        background-image: url('notification.png');
+        background-size: cover;
+        background-position: center;
+        float: left;
+        margin-right: 10px;
+        margin-top: 28px;
+       
+    }
+    #kannini-logo{
+        width: 40px;
+        height: 40px;
+        background-image: url('icon.jpeg');
+        background-size: cover;
+        background-position: center;
+        float: left;
+        border-radius: 50%;
+        border: 1px solid black;
+        margin-top: 20px;
+        margin-right: 8px;
+        
+        
+    }
+    #profile-name{
+        float: left;
+       
+        font-size: medium;
+        margin-top: 28px;
+       
+    }
+    .view-all{
+        position: relative;
+    left: 172px;
+    bottom: 23px;
+    font-size: 10px;
+    color: rgb(72, 193, 233);
+}
+
+
+
+
+
+    /* nav */
+    
