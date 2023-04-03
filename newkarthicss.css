@@ -607,9 +607,30 @@ position: absolute;
     #search-bar{
         float: left;
         margin-right: 20px;
+        
+        
+        
        
         
     }
+
+    #s-txt{
+        width: 256px;
+        margin-top: 25px;
+        margin-right: 5px;
+        border-radius: 5px;
+        height: 33px;
+        padding-left: 25px;
+    }
+#span-icon{
+    position: absolute;
+  margin-left: 5px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
     #bell-icon{
         width: 30px;
         height: 30px;
@@ -656,3 +677,17 @@ position: absolute;
 
     /* nav */
     
+
+/*media query*/
+
+@media screen and (max-width: 1463px) {
+    #name-second-half {
+      padding-left: 80px;
+    }
+  }
+
+@media screen and (max-width: 1397px) {
+    #name-second-half {
+      padding-left: 0px;
+    }
+  }
